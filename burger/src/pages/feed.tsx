@@ -1,6 +1,5 @@
 import styles from "./pages-styles.module.css";
-import FeedBurgers from "../components/feed-burgers/feed-burgers";
-import FeedNumbers from "../components/feed-numbers/feed-numbers";
+
 import {
   LIVE_ORDER_FEED_CONNECT,
   LIVE_ORDER_FEED_DISCONNECT,
@@ -11,7 +10,6 @@ import { baseWS } from "../utils/burger-api";
 import { useEffect, useState } from "react";
 import Modal from "../components/modal/modal";
 import { useLocation, useHistory } from "react-router-dom";
-import OrderInfoModal from "../components/order-info-modal/order-info-modal";
 import { useSelector, useDispatch } from "../utils/hooks";
 
 import { Location } from "history";
@@ -51,30 +49,8 @@ function Feed() {
   return (
     <>
       <div className={`${styles.feedMain} ml-15 mr-0 mb-0 mt-0`}>
-        <h2
-          className={`${styles.feedTitle} text text_type_main-large ml-0 mr-0 mb-5 mt-10`}
-        >
-          Лента заказов
-        </h2>
-        <div className={`${styles.feedContent} ml-0 mr-0 mb-0 mt-0`}>
-          <div className={`${styles.feedNumbers}`}>
-            {allOrders?.map((order: TOrders) => {
-              return (
-                <div key={order.number} onClick={() => openOrderInfo(order)}>
-                  <FeedBurgers order={order} />
-                </div>
-              );
-            })}
-          </div>
-          <FeedNumbers numbers={numbers} />
-        </div>
+        <div>Тест</div>
       </div>
-
-      {modalOpen && (
-        <Modal closeAllModals={onModalClose}>
-          <OrderInfoModal orders={modalOpen} />
-        </Modal>
-      )}
     </>
   );
 }

@@ -1,16 +1,4 @@
-import {
-  ConstructorPage,
-  LoginPage,
-  RegisterPage,
-  ForgotPassword,
-  ResetPassword,
-  Profile,
-  Ingredients,
-  Page404,
-  ProfileHistoryOrders,
-  Feed,
-  OrderInfo,
-} from "../../pages/index";
+import { ConstructorPage, Page404, Feed } from "../../pages/index";
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,7 +8,6 @@ import {
 } from "react-router-dom";
 import { getItems } from "../../services/actions/ingredients";
 import { useEffect } from "react";
-import { ProtectedRoute } from "../protected-route/protected-route";
 import { getProfileInfo } from "../../services/actions/login";
 import AppHeader from "../app-header/app-header";
 import { useDispatch } from "../../utils/hooks";
