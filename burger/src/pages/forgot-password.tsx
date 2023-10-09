@@ -5,7 +5,7 @@ import {
 } from "@ya.praktikum/react-developer-burger-ui-components";
 import styles from "./pages-styles.module.css";
 import { Link, Redirect } from "react-router-dom";
-import { passwordResetRequest } from "../services/actions/login";
+// import { passwordResetRequest } from "../services/actions/login";
 import { useState, useCallback, FormEvent } from "react";
 
 import Spinner from "../components/spinner/spinner";
@@ -23,17 +23,21 @@ function ForgotPassword() {
     (state) => state.login.passwordResetRequest.success
   );
 
-  const resetPassword = (value: string, event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    sendRequest(value);
-  };
+  // const resetPassword = (value: string, event: FormEvent<HTMLFormElement>) => {
+  //   event.preventDefault();
+  //   sendRequest(value);
+  // };
 
-  const sendRequest = useCallback((email: string) => {
-    dispatch(passwordResetRequest({ email }));
-  }, []);
+  // const sendRequest = useCallback((email: string) => {
+  //   dispatch(passwordResetRequest({ email }));
+  // }, []);
 
   if (passwordResetRequestSuccess) {
     return <Redirect to="/reset-password" />;
+  }
+
+  function resetPassword(inputValue: string, event: FormEvent<HTMLFormElement>): void {
+    throw new Error("Function not implemented.");
   }
 
   return (

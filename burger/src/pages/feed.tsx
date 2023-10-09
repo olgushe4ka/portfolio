@@ -1,12 +1,12 @@
 import styles from "./pages-styles.module.css";
 
-import {
-  LIVE_ORDER_FEED_CONNECT,
-  LIVE_ORDER_FEED_DISCONNECT,
-  wsConnect,
-  wsDisconnect,
-} from "../services/actions/web-soket";
-import { baseWS } from "../utils/burger-api";
+// import {
+//   LIVE_ORDER_FEED_CONNECT,
+//   LIVE_ORDER_FEED_DISCONNECT,
+//   wsConnect,
+//   wsDisconnect,
+// } from "../services/actions/web-soket";
+// import { baseWS } from "../utils/burger-api";
 import { useEffect, useState } from "react";
 import Modal from "../components/modal/modal";
 import { useLocation, useHistory } from "react-router-dom";
@@ -35,13 +35,13 @@ function Feed() {
     history.goBack();
   };
 
-  //WS
-  useEffect(() => {
-    dispatch(wsConnect(baseWS));
-    return () => {
-      dispatch(wsDisconnect());
-    };
-  }, [dispatch]);
+  // //WS
+  // useEffect(() => {
+  //   dispatch(wsConnect(baseWS));
+  //   return () => {
+  //     dispatch(wsDisconnect());
+  //   };
+  // }, [dispatch]);
 
   const openOrderInfo = (data: TOrders) => {
     setModalOpen(data);

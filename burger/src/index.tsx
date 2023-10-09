@@ -5,12 +5,13 @@ import reportWebVitals from "./reportWebVitals";
 
 import { applyMiddleware } from "redux";
 import { Provider } from "react-redux";
-import { burgersMiddleware, rootReducer } from "./services/reducers";
+// import { burgersMiddleware, rootReducer } from "./services/reducers";
 import thunk from "redux-thunk";
 import { configureStore } from "@reduxjs/toolkit";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./components/app/app";
 import { AppThunk } from "./types/index";
+import { burgersMiddleware, rootReducer } from "./services/reducers";
 
 export const store = configureStore({
   reducer: rootReducer,

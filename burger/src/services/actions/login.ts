@@ -1,13 +1,13 @@
 import { AppDispatch } from "../../types";
-import {
-  resetPasswordRequest,
-  resetPassword,
-  registration,
-  authorization,
-  getUserInformation,
-  changeUserInformation,
-  logoutApi,
-} from "../../utils/burger-api";
+// import {
+//   resetPasswordRequest,
+//   resetPassword,
+//   registration,
+//   authorization,
+//   getUserInformation,
+//   changeUserInformation,
+//   logoutApi,
+// } from "../../utils/burger-api";
 import { setCookie } from "../../utils/cookie";
 
 export const PASSWORD_RESET_REQUEST_REQUEST: "PASSWORD_RESET_REQUEST_REQUEST" =
@@ -155,188 +155,188 @@ export type TLoginActions =
   | ILogautSuccessAction
   | ILogautInfoFailedAction;
 
-// Генераторы экшенов
+// // Генераторы экшенов
 
-export function passwordResetRequest(email:any) {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: PASSWORD_RESET_REQUEST_REQUEST,
-    });
-    resetPasswordRequest(email)
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: PASSWORD_RESET_REQUEST_SUCCESS,
-            payload: res,
-          });
-        } else {
-          dispatch({
-            type: PASSWORD_RESET_REQUEST_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-}
+// export function passwordResetRequest(email:any) {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: PASSWORD_RESET_REQUEST_REQUEST,
+//     });
+//     resetPasswordRequest(email)
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: PASSWORD_RESET_REQUEST_SUCCESS,
+//             payload: res,
+//           });
+//         } else {
+//           dispatch({
+//             type: PASSWORD_RESET_REQUEST_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   };
+// }
 
-export function passwordReset(data: any) {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: PASSWORD_RESET_REQUEST,
-    });
-    resetPassword(data)
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: PASSWORD_RESET_SUCCESS,
-            payload: res,
-          });
-        } else {
-          dispatch({
-            type: PASSWORD_RESET_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-        dispatch({
-          type: PASSWORD_RESET_FAILED,
-        });
-      });
-  };
-}
+// export function passwordReset(data: any) {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: PASSWORD_RESET_REQUEST,
+//     });
+//     resetPassword(data)
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: PASSWORD_RESET_SUCCESS,
+//             payload: res,
+//           });
+//         } else {
+//           dispatch({
+//             type: PASSWORD_RESET_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//         dispatch({
+//           type: PASSWORD_RESET_FAILED,
+//         });
+//       });
+//   };
+// }
 
-export function register(data: {}) {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: REGISTRATION_REQUEST,
-    });
-    registration(data)
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: REGISTRATION_SUCCESS,
-            payload: res,
-          });
-          localStorage.setItem("refreshToken", res.refreshToken);
-          setCookie("accessToken", res.accessToken);
-        } else {
-          dispatch({
-            type: REGISTRATION_FAILED,
-          });
-        }
-      })
+// export function register(data: {}) {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: REGISTRATION_REQUEST,
+//     });
+//     registration(data)
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: REGISTRATION_SUCCESS,
+//             payload: res,
+//           });
+//           localStorage.setItem("refreshToken", res.refreshToken);
+//           setCookie("accessToken", res.accessToken);
+//         } else {
+//           dispatch({
+//             type: REGISTRATION_FAILED,
+//           });
+//         }
+//       })
 
-      .catch((err) => {
-        console.log(err);
-        dispatch({
-          type: REGISTRATION_FAILED,
-        });
-      });
-  };
-}
+//       .catch((err) => {
+//         console.log(err);
+//         dispatch({
+//           type: REGISTRATION_FAILED,
+//         });
+//       });
+//   };
+// }
 
-export function login(data: {}) {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: LOGIN_REQUEST,
-    });
-    authorization(data)
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: LOGIN_SUCCESS,
-            payload: res,
-          });
-          const accessToken = res.accessToken.split("Bearer ")[1];
+// export function login(data: {}) {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: LOGIN_REQUEST,
+//     });
+//     authorization(data)
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: LOGIN_SUCCESS,
+//             payload: res,
+//           });
+//           const accessToken = res.accessToken.split("Bearer ")[1];
 
-          localStorage.setItem("refreshToken", res.refreshToken);
-          setCookie("accessToken", accessToken);
-        } else {
-          dispatch({
-            type: LOGIN_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-        dispatch({
-          type: LOGIN_FAILED,
-        });
-      });
-  };
-}
+//           localStorage.setItem("refreshToken", res.refreshToken);
+//           setCookie("accessToken", accessToken);
+//         } else {
+//           dispatch({
+//             type: LOGIN_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//         dispatch({
+//           type: LOGIN_FAILED,
+//         });
+//       });
+//   };
+// }
 
-export function getProfileInfo(data?: {}) {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: GET_USER_INFO_REQUEST,
-    });
-    getUserInformation()
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: GET_USER_INFO_SUCCESS,
-            payload: res,
-          });
-        } else {
-          dispatch({
-            type: GET_USER_INFO_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-}
+// export function getProfileInfo(data?: {}) {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: GET_USER_INFO_REQUEST,
+//     });
+//     getUserInformation()
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: GET_USER_INFO_SUCCESS,
+//             payload: res,
+//           });
+//         } else {
+//           dispatch({
+//             type: GET_USER_INFO_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   };
+// }
 
-export function changeProfileInfo(data: {}) {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: CHANGE_USER_INFO_REQUEST,
-    });
-    changeUserInformation(data)
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: CHANGE_USER_INFO_SUCCESS,
-            payload: res,
-          });
-        } else {
-          dispatch({
-            type: CHANGE_USER_INFO_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-}
+// export function changeProfileInfo(data: {}) {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: CHANGE_USER_INFO_REQUEST,
+//     });
+//     changeUserInformation(data)
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: CHANGE_USER_INFO_SUCCESS,
+//             payload: res,
+//           });
+//         } else {
+//           dispatch({
+//             type: CHANGE_USER_INFO_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   };
+// }
 
-export function logOut() {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: LOGOUT_REQUEST,
-    });
-    logoutApi()
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: LOGOUT_SUCCESS,
-            payload: res,
-          });
-        } else {
-          dispatch({
-            type: LOGOUT_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-}
+// export function logOut() {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: LOGOUT_REQUEST,
+//     });
+//     logoutApi()
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: LOGOUT_SUCCESS,
+//             payload: res,
+//           });
+//         } else {
+//           dispatch({
+//             type: LOGOUT_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   };
+// }

@@ -6,9 +6,9 @@ import {
   useLocation,
   useHistory,
 } from "react-router-dom";
-import { getItems } from "../../services/actions/ingredients";
+// import { getItems } from "../../services/actions/ingredients";
 import { useEffect } from "react";
-import { getProfileInfo } from "../../services/actions/login";
+// import { getProfileInfo } from "../../services/actions/login";
 import AppHeader from "../app-header/app-header";
 import { useDispatch } from "../../utils/hooks";
 import { Location } from "history";
@@ -18,13 +18,13 @@ function App() {
   const location = useLocation<{ background: Location }>();
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(getItems());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(getItems());
+  // }, [dispatch]);
 
-  useEffect(() => {
-    dispatch(getProfileInfo());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(getProfileInfo());
+  // }, [dispatch]);
 
   const background = location.state && location.state?.background;
 

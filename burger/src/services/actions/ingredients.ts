@@ -1,6 +1,6 @@
 import { AppDispatch } from "../../types";
 import { TOrders } from "../../types/ingredients";
-import { getIngredients, saveOrder } from "../../utils/burger-api";
+// import { getIngredients, saveOrder } from "../../utils/burger-api";
 
 export const GET_ORDER_DETAILS_FAILED: "GET_ORDER_DETAILS_FAILED" =
   "GET_ORDER_DETAILS_FAILED";
@@ -98,51 +98,51 @@ export type TIngredientsActions =
 
 // Генераторы экшенов
 
-export function getItems() {
-  return function (dispatch: AppDispatch) {
-    dispatch({
-      type: GET_INGREDIENTS_REQUEST,
-    });
-    getIngredients()
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: GET_INGREDIENTS_SUCCESS,
-            items: res.data,
-          });
-        } else {
-          dispatch({
-            type: GET_INGREDIENTS_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-}
+// export function getItems() {
+//   return function (dispatch: AppDispatch) {
+//     dispatch({
+//       type: GET_INGREDIENTS_REQUEST,
+//     });
+//     getIngredients()
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: GET_INGREDIENTS_SUCCESS,
+//             items: res.data,
+//           });
+//         } else {
+//           dispatch({
+//             type: GET_INGREDIENTS_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   };
+// }
 
-export function orderBurger(orderData: {}) {
-  return function (dispatch: AppDispatch) {
-    console.log(orderData);
-    dispatch({
-      type: GET_ORDER_DETAILS_REQUEST,
-    });
-    saveOrder(orderData)
-      .then((res) => {
-        if (res && res.success) {
-          dispatch({
-            type: GET_ORDER_DETAILS_SUCCESS,
-            items: res,
-          });
-        } else {
-          dispatch({
-            type: GET_ORDER_DETAILS_FAILED,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-}
+// export function orderBurger(orderData: {}) {
+//   return function (dispatch: AppDispatch) {
+//     console.log(orderData);
+//     dispatch({
+//       type: GET_ORDER_DETAILS_REQUEST,
+//     });
+//     saveOrder(orderData)
+//       .then((res) => {
+//         if (res && res.success) {
+//           dispatch({
+//             type: GET_ORDER_DETAILS_SUCCESS,
+//             items: res,
+//           });
+//         } else {
+//           dispatch({
+//             type: GET_ORDER_DETAILS_FAILED,
+//           });
+//         }
+//       })
+//       .catch((err) => {
+//         console.log(err);
+//       });
+//   };
+// }

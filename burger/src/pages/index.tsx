@@ -1,4 +1,4 @@
-import ForgotPassword from "./forgot-password";
+// import ForgotPassword from "./forgot-password";
 import ConstructorPage from "./constructor-page";
 
 import Page404 from "./page404";
@@ -7,7 +7,7 @@ import Feed from "./feed";
 
 export {
   ConstructorPage,
-  ForgotPassword,
+  // ForgotPassword,
   Page404,
   Feed,
 
