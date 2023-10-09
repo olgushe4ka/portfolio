@@ -15,13 +15,13 @@ function ForgotPassword() {
   const dispatch = useDispatch();
   const [inputValue, setinputValue] = useState("");
 
-  const isLoading = useSelector(
-    (state) => state.login.passwordResetRequestIsLoading
-  );
+  // const isLoading = useSelector(
+  //   (state) => state.login.passwordResetRequestIsLoading
+  // );
 
-  const passwordResetRequestSuccess = useSelector(
-    (state) => state.login.passwordResetRequest.success
-  );
+  // const passwordResetRequestSuccess = useSelector(
+  //   (state) => state.login.passwordResetRequest.success
+  // );
 
   // const resetPassword = (value: string, event: FormEvent<HTMLFormElement>) => {
   //   event.preventDefault();
@@ -32,9 +32,9 @@ function ForgotPassword() {
   //   dispatch(passwordResetRequest({ email }));
   // }, []);
 
-  if (passwordResetRequestSuccess) {
-    return <Redirect to="/reset-password" />;
-  }
+  // if (passwordResetRequestSuccess) {
+  //   return <Redirect to="/reset-password" />;
+  // }
 
   function resetPassword(inputValue: string, event: FormEvent<HTMLFormElement>): void {
     throw new Error("Function not implemented.");
@@ -42,7 +42,7 @@ function ForgotPassword() {
 
   return (
     <>
-      {isLoading && <Spinner />}
+      {/* {isLoading && <Spinner />} */}
 
       <form
         className={`${styles.main}`}
