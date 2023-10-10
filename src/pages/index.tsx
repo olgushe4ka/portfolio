@@ -2,7 +2,9 @@ import MainPage from "./main";
 
 import Page404 from "./page404";
 
-import Feed from "./feed";
 import AboutUsPage from "./about-us";
+import Contacnts from "./contacts";
+import Portfolio from "./portfolio";
+import Price from "./price";
 
-export { MainPage, Page404, Feed, AboutUsPage };
+export { MainPage, Page404, AboutUsPage, Contacnts, Portfolio, Price };

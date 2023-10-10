@@ -1,4 +1,4 @@
-import { MainPage, Page404, Feed, AboutUsPage } from "../../pages/index";
+import { MainPage, Page404, AboutUsPage,  Contacnts, Portfolio, Price } from "../../pages/index";
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,8 +22,14 @@ function App() {
         <Route path="/" exact={true}>
           <MainPage />
         </Route>
-        <Route path="/feed" exact={true}>
-          <Feed />
+        <Route path="/portfolio" exact={true}>
+          <Portfolio />
+        </Route>
+        <Route path="/price" exact={true}>
+          <Price />
+        </Route>
+        <Route path="/contacnts" exact={true}>
+          <Contacnts />
         </Route>
         <Route path="/about" exact={true}>
           <AboutUsPage />
