@@ -1,4 +1,5 @@
 .header {
+  padding: 25px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -23,18 +24,15 @@
   height: 22px;
 }
 
-.logo {
-  align-items: center;
-}
-
-.lentaZakazov {
+.menu {
   display: flex;
   align-items: center;
   text-decoration: none;
+  padding-left: 25px;
 }
 
-.konstructor {
-  display: flex;
-  align-items: center;
+.menuText {
   text-decoration: none;
+  color: black;
+  font-size: 18px;
 }

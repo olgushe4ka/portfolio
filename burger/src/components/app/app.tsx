@@ -1,12 +1,10 @@
-import { ConstructorPage, Page404, Feed } from "../../pages/index";
+import { MainPage, Page404, Feed, AboutUsPage } from "../../pages/index";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   useLocation,
 } from "react-router-dom";
-
-import { useEffect } from "react";
 
 import AppHeader from "../app-header/app-header";
 
@@ -22,10 +20,13 @@ function App() {
       <AppHeader />
       <Switch location={background || location}>
         <Route path="/" exact={true}>
-          <ConstructorPage />
+          <MainPage />
         </Route>
         <Route path="/feed" exact={true}>
           <Feed />
+        </Route>
+        <Route path="/about" exact={true}>
+          <AboutUsPage />
         </Route>
 
         <Route>
