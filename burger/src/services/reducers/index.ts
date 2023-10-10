@@ -1,7 +1,6 @@
 import { combineReducers } from "redux";
 
-import { ingredientsReducer } from "./ingredients";
-import { loginReducer } from "./login";
+// import { loginReducer } from "./login";
 import {
   // wsConnect,
   // wsDisconnect,
@@ -24,8 +23,7 @@ import { socketMiddleware } from "../middleware/soket-middleware";
 import { liveOrderFeedReducer } from "./web-soket";
 
 export const rootReducer = combineReducers({
-  ingredients: ingredientsReducer,
-  login: loginReducer,
+  
   ws: liveOrderFeedReducer,
 });
 

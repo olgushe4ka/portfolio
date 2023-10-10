@@ -1,15 +1,8 @@
-// import ForgotPassword from "./forgot-password";
-import ConstructorPage from "./constructor-page";
+import MainPage from "./main";
 
 import Page404 from "./page404";
 
 import Feed from "./feed";
+import AboutUsPage from "./about-us";
 
-export {
-  ConstructorPage,
-  // ForgotPassword,
-  Page404,
-  Feed,
-
-  //  PersonPage, HomePage, ListPage, NotFound404
-};
+export { MainPage, Page404, Feed, AboutUsPage };

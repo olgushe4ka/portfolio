@@ -7,149 +7,25 @@
   align-items: center;
 }
 
-.registredBox {
+.main {
+  padding: 25px;
+}
+
+.aboutus {
+  padding: 30px;
+}
+
+.aboutusImg {
   display: flex;
+  max-width: 500px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
-.textDownlogin {
-  color: #8585ad;
-}
-
-.linkDownlogin {
-  color: #4c4cff;
-  text-decoration: none;
-}
-
-.profileGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 10px;
-  margin-top: 120px;
-}
-
-.profileGridHistory {
-  composes: profileGrid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.profileMenu {
-  display: flex;
-  flex-direction: column;
-}
-
-.profileButton {
-  width: 320px;
-  height: 64px;
-  background-color: transparent;
-  font-size: 24px;
-  text-decoration: none;
-  color: #8585ad;
-  border: none;
-  text-align: start;
-  display: flex;
-  align-items: center;
-}
-
-.profileLeftBox {
-  justify-self: end;
-  margin-left: 50px;
-}
-
-.ptofileTextDown {
-  max-width: 320px;
-  color: #8585ad;
-  opacity: 0.4;
-}
-
-.profileInput {
-  justify-self: center;
-}
-
-.profileButtonActive {
-  composes: profileButton;
-  color: white;
-}
-
-.profileButtonBox {
-  text-align: end;
-}
-
-.profileButton:hover {
-  cursor: pointer;
-}
-
-.profileFeedBurgers {
-  width: 844px;
-  height: 600px;
-  padding-right: 10px;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: #8585ad black;
-  /* text-decoration: none;
-  align-self: center; */
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.feedMain {
-  align-items: center;
-}
-
-.feedContent {
-  display: flex;
-  justify-content: space-between;
-}
-
-.feedTitle {
-  text-align: start;
-  align-self: flex-start;
-}
-
-.feedIdMain {
-  max-width: 640px;
-  margin: auto;
-  margin-top: 122px;
-  text-align: center;
-}
-
-.feedIdIngredients {
-  height: 366px;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: #8585ad black;
-  text-decoration: none;
-}
-
-.feedNumbers {
-  width: 584px;
-  height: 600px;
-  padding-right: 10px;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: #8585ad black;
-  text-decoration: none;
-  align-self: center;
-}
-
-.feedIddownBox {
-  display: flex;
-  justify-content: space-between;
-  align-self: center;
-}
-
-.feedIdpriceBox {
-  display: flex;
-}
-
-.feddIdStatus {
-  color: #00cccc;
-  text-align: left;
-}
-
-.feddIdbutgerSostav {
-  text-align: left;
-}
-
-.feddIdbutgerName {
-  text-align: left;
+.aboutusText {
+  padding-left: 25px;
+  max-width: 1000px;
 }

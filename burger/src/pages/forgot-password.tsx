@@ -1,8 +1,3 @@
-import {
-  Input,
-  Button,
-  EmailInput,
-} from "@ya.praktikum/react-developer-burger-ui-components";
 import styles from "./pages-styles.module.css";
 import { Link, Redirect } from "react-router-dom";
 // import { passwordResetRequest } from "../services/actions/login";
@@ -15,13 +10,13 @@ function ForgotPassword() {
   const dispatch = useDispatch();
   const [inputValue, setinputValue] = useState("");
 
-  const isLoading = useSelector(
-    (state) => state.login.passwordResetRequestIsLoading
-  );
+  // const isLoading = useSelector(
+  //   (state) => state.login.passwordResetRequestIsLoading
+  // );
 
-  const passwordResetRequestSuccess = useSelector(
-    (state) => state.login.passwordResetRequest.success
-  );
+  // const passwordResetRequestSuccess = useSelector(
+  //   (state) => state.login.passwordResetRequest.success
+  // );
 
   // const resetPassword = (value: string, event: FormEvent<HTMLFormElement>) => {
   //   event.preventDefault();
@@ -32,17 +27,20 @@ function ForgotPassword() {
   //   dispatch(passwordResetRequest({ email }));
   // }, []);
 
-  if (passwordResetRequestSuccess) {
-    return <Redirect to="/reset-password" />;
-  }
+  // if (passwordResetRequestSuccess) {
+  //   return <Redirect to="/reset-password" />;
+  // }
 
-  function resetPassword(inputValue: string, event: FormEvent<HTMLFormElement>): void {
+  function resetPassword(
+    inputValue: string,
+    event: FormEvent<HTMLFormElement>
+  ): void {
     throw new Error("Function not implemented.");
   }
 
   return (
     <>
-      {isLoading && <Spinner />}
+      {/* {isLoading && <Spinner />} */}
 
       <form
         className={`${styles.main}`}
@@ -50,22 +48,9 @@ function ForgotPassword() {
       >
         <p className="text text_type_main-medium">Восстановление пароля</p>
 
-        <div className="ml-0 mr-0 mb-0 mt-6">
-          <EmailInput
-            placeholder={"Укажите e-mail"}
-            onChange={(e) => setinputValue(e.target.value)}
-            value={inputValue}
-            name={"name"}
-            // ref={inputRef}
-            //   onIconClick={onIconClick}
-          />
-        </div>
+        <div className="ml-0 mr-0 mb-0 mt-6"></div>
 
-        <div className="ml-0 mr-0 mb-0 mt-10">
-          <Button htmlType="submit" type="primary" size="medium">
-            Восстановить
-          </Button>
-        </div>
+        <div className="ml-0 mr-0 mb-0 mt-10"></div>
         <div className={`${styles.registredBox} ml-0 mr-0 mb-0 mt-20`}>
           <p
             className={`${styles.textDownlogin} text text_type_main-default ml-0 mr-2 mb-0 mt-0`}
