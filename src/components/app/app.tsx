@@ -1,4 +1,11 @@
-import { MainPage, Page404, AboutUsPage,  Contacnts, Portfolio, Price } from "../../pages/index";
+import {
+  MainPage,
+  Page404,
+  AboutUsPage,
+  Contacnts,
+  Portfolio,
+  Price,
+} from "../../pages/index";
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,6 +16,7 @@ import {
 import AppHeader from "../app-header/app-header";
 
 import { Location } from "history";
+import PortfolioDetailPage from "../../pages/portfolio-detail";
 
 function App() {
   const location = useLocation<{ background: Location }>();
@@ -31,6 +39,7 @@ function App() {
         <Route path="/contacnts" exact={true}>
           <Contacnts />
         </Route>
+        <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />
         <Route path="/about" exact={true}>
           <AboutUsPage />
         </Route>
