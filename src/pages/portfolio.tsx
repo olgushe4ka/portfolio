@@ -9,9 +9,9 @@ function Portfolio() {
       <div className={styles.portfolioImages}>
         {portfolioInfo.map((item, index) => (
            <Link to={`/portfolio/${item.id}`} key={item.id}>
-          <div  className={styles.portfolioImage}>
+<div className={`${styles.portfolioImage} ${styles.hoverOpacity}`}>
             <img src={item.mainFoto} alt={item.title} />
-            <p>{item.title}</p>
+            <p className={styles.portfolioTitle}>{item.title}</p>
           </div> </Link>
         ))}
       </div>

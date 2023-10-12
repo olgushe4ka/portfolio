@@ -5,9 +5,9 @@ function Contacnts() {
   return (
     <>
       <div className={`${styles.contactpage} `}>
-        <h2>Контакты</h2>
+        <h2 className={styles.contactpageH2} >Контакты</h2>
         <div className={styles.contactpageLocation}>
-          <strong> Казань</strong>
+          <strong> Казань, ул. Строителей, 12</strong>
         </div>
 
         <div>

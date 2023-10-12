@@ -58,11 +58,12 @@
   position: absolute;
   font-size: 100px;
   margin: 0;
-  color: rgb(192, 190, 190);
+  color: rgb(214, 211, 211);
   z-index: -1;
   top: 50%;
   left: 5%;
   transform: translate(-50%, -50%);
+  font-weight: 700;
 }
 
 .pricePageStepBoxDescription {
@@ -92,7 +93,7 @@
   margin: auto;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
+  padding: 50px;
 }
 
 .contactpageLocation {
@@ -107,7 +108,7 @@
 }
 
 .contactpageContacts:hover {
-  color: blueviolet;;
+  color: blueviolet;
 }
 
 .portfolio {
@@ -125,11 +126,22 @@
   object-fit: contain;
 }
 
+
+
+.hoverOpacity:hover {
+  opacity: 0.6;
+}
+
 .portfolioImage img {
   max-width: 100%;
   max-height: 400px;
   width: auto;
   height: auto;
+}
+
+.portfolioTitle {
+  text-decoration: none !important;
+  color: pr;
 }
 
 @media (max-width: 1300px) {

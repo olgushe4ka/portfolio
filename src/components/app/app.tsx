@@ -17,6 +17,7 @@ import AppHeader from "../app-header/app-header";
 
 import { Location } from "history";
 import PortfolioDetailPage from "../../pages/portfolio-detail";
+import AppFooter from "../app-footer/app-footer";
 
 function App() {
   const location = useLocation<{ background: Location }>();
@@ -48,6 +49,7 @@ function App() {
           <Page404 />
         </Route>
       </Switch>
+      <AppFooter />
     </>
   );
 }
