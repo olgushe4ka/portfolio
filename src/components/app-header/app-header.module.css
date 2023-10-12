@@ -5,7 +5,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  box-shadow:   0px 2px 9px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.04);
 }
 
 .boxLeft {
@@ -25,13 +25,22 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding-left: 25px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .menuText {
   text-decoration: none;
   color: black;
   font-size: 18px;
+}
+
+.menuText:hover {
+  font-size: 20px;
+}
+
+.active p {
+font-weight: 500;
 }
 
 @media (max-width: 770px) {
@@ -41,13 +50,12 @@
 
   .boxLeft {
     flex-direction: column;
-align-items: flex-start;
+    align-items: flex-start;
   }
 
-  .menuText{
+  .menuText {
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
-
   }
 }

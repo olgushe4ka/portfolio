@@ -22,20 +22,20 @@ function SliderMain() {
       <Slider {...settings}>
         <div className={styles.slickSlider}>
           <div className={styles.imageContainer}>
-            <img className={styles.slickSlide} src={slide1} alt="Slide 1" />
-            <img className={styles.slickSlide} src={slide2} alt="Slide 1" />
+            <img className={styles.slickSlide} src={require("../../images/Гостиная 1 (1).jpg")} alt="Slide 1" />
+            <img className={styles.slickSlide} src={require("../../images/Гостиная 1 (4).jpg")} alt="Slide 1" />
           </div>
         </div>
         <div className={styles.slickSlider}>
         <div className={styles.imageContainer}>
-            <img className={styles.slickSlide} src={slide2} alt="Slide 1" />
-            <img className={styles.slickSlide} src={slide3} alt="Slide 1" />
+            <img className={styles.slickSlide} src={require("../../images/Гостиная 1 (4).jpg")} alt="Slide 1" />
+            <img className={styles.slickSlide} src={require("../../images/Гостиная 1 (5).jpg")} alt="Slide 1" />
           </div>
         </div>
         <div className={styles.slickSlider}>
         <div className={styles.imageContainer}>
-            <img className={styles.slickSlide} src={slide3} alt="Slide 1" />
-            <img className={styles.slickSlide} src={slide1} alt="Slide 1" />
+            <img className={styles.slickSlide} src={require("../../images/Гостиная 1 (5).jpg")} alt="Slide 1" />
+            <img className={styles.slickSlide} src={require("../../images/Гостиная 1 (1).jpg")} alt="Slide 1" />
           </div>
         </div>
       </Slider>

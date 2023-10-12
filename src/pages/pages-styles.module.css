@@ -44,6 +44,7 @@
 .pricePageTitle {
   margin: 0;
   margin-bottom: 50px;
+  margin-top: 50px;
   color: blueviolet;
 }
 
@@ -82,10 +83,27 @@
   font-weight: 600;
 }
 
+.pricePagePriceBox p {
+  margin: 0;
+  padding: 0;
+  margin-right: 2px;
+  padding: 2px;
+}
+
 .pricePagePriceBoxAmmount {
   color: blueviolet;
   font-weight: 600;
-  margin-left: 8px;
+}
+
+.pricePageStepBoxPomesheniya {
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.lineUp{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid rgb(202, 202, 202);
 }
 
 .contactpage {
@@ -94,6 +112,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 50px;
+  max-width: 300px;
 }
 
 .contactpageLocation {
@@ -125,8 +144,6 @@
   gap: 25px;
   object-fit: contain;
 }
-
-
 
 .hoverOpacity:hover {
   opacity: 0.6;

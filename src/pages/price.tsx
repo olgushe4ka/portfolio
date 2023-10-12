@@ -123,6 +123,99 @@ function Price() {
               <p>/кв.м.</p>
             </div>
           </div>
+
+          <div className={styles.pricePage}>
+            <h2 className={styles.pricePageTitle}>
+              РАЗРАБОТКА ДИЗАЙН-ПРОЕКТА ОТДЕЛЬНЫХ ПОМЕЩЕНИЙ:
+            </h2>
+            <p>(Разрабатывается полностью дистанционно)</p>
+            <div
+              className={`${styles.pricePageStepBox} ${styles.pricePageStepBoxPomesheniya}`}
+            >
+              <h3 className={styles.pricePageStepBoxDescription}>
+                ПОЛНЫЙ ДИЗАЙН-ПРОЕКТ
+              </h3>
+              <ul className={styles.pricePageStepBoxUl}>
+                <li className={styles.pricePageStepBoxLi}>
+                  Создание ТЗ / Обмерный план
+                </li>
+                <li className={styles.pricePageStepBoxLi}>
+                  Проектирование пространства
+                </li>
+                <li className={styles.pricePageStepBoxLi}>Коллажи</li>
+                <li className={styles.pricePageStepBoxLi}>Визуализации</li>
+                <li className={styles.pricePageStepBoxLi}>
+                  Полный пакет строительных чертежей
+                </li>
+                <li className={styles.pricePageStepBoxLi}>Чертежи мебели</li>
+                <li className={styles.pricePageStepBoxLi}>Комплектация</li>
+              </ul>
+            </div>
+
+            <div className={styles.pricePagePriceBox}>
+              <p> Стоимость отдельного помещения площадью: </p>{" "}
+            </div>
+
+            <div className={styles.pricePagePriceBox}>
+              <p>до 5 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 25 000 руб</p>{" "}
+            </div>
+            <div className={styles.pricePagePriceBox}>
+              <p>от 5 - 15 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 40 000 руб</p>{" "}
+            </div>
+            <div className={styles.pricePagePriceBox}>
+              <p>от 15 - 30 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 60 000 руб</p>{" "}
+            </div>
+            <div className={styles.pricePagePriceBox}>
+              <p>от 30 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 2 000 руб / м2</p>{" "}
+            </div>
+
+<div  className={` ${styles.lineUp}`}></div>
+
+            <div
+              className={`${styles.pricePageStepBox} ${styles.pricePageStepBoxPomesheniya} `}
+            >
+              <h3 className={styles.pricePageStepBoxDescription}>
+                КОНЦЕПТУАЛЬНЫЙ ДИЗАЙН-ПРОЕКТ
+              </h3>
+              <ul className={styles.pricePageStepBoxUl}>
+                <li className={styles.pricePageStepBoxLi}>
+                  Создание ТЗ / Обмерный план
+                </li>
+                <li className={styles.pricePageStepBoxLi}>
+                  Проектирование пространства
+                </li>
+                <li className={styles.pricePageStepBoxLi}>Коллажи</li>
+                <li className={styles.pricePageStepBoxLi}>
+                  Полный пакет строительных чертежей
+                </li>
+              </ul>
+            </div>
+
+            <div className={styles.pricePagePriceBox}>
+              <p> Стоимость отдельного помещения площадью: </p>{" "}
+            </div>
+
+            <div className={styles.pricePagePriceBox}>
+              <p>до 5 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 20 000 руб</p>{" "}
+            </div>
+            <div className={styles.pricePagePriceBox}>
+              <p>от 5 - 15 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 30 000 руб</p>{" "}
+            </div>
+            <div className={styles.pricePagePriceBox}>
+              <p>от 15 - 30 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 40 000 руб</p>{" "}
+            </div>
+            <div className={styles.pricePagePriceBox}>
+              <p>от 30 кв.м.</p>{" "}
+              <p className={styles.pricePagePriceBoxAmmount}> 1 600 руб / м2</p>{" "}
+            </div>
+          </div>
         </div>
       </div>
     </>
