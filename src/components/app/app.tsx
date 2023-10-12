@@ -18,6 +18,7 @@ import AppHeader from "../app-header/app-header";
 import { Location } from "history";
 import PortfolioDetailPage from "../../pages/portfolio-detail";
 import AppFooter from "../app-footer/app-footer";
+import Price2 from "../../pages/price-refactoring";
 
 function App() {
   const location = useLocation<{ background: Location }>();
@@ -36,6 +37,7 @@ function App() {
         </Route>
         <Route path="/price" exact={true}>
           <Price />
+          {/* <Price2 /> */}
         </Route>
         <Route path="/contacnts" exact={true}>
           <Contacnts />

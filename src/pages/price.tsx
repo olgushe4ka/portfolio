@@ -152,29 +152,42 @@ function Price() {
               </ul>
             </div>
 
-            <div className={styles.pricePagePriceBox}>
-              <p> Стоимость отдельного помещения площадью: </p>{" "}
+            <div className={styles.leftside}>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p> Стоимость отдельного помещения площадью: </p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>до 5 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}> 25 000 руб</p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>от 5 - 15 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}> 40 000 руб</p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>от 15 - 30 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}> 60 000 руб</p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>от 30 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}>
+                  {" "}
+                  2 000 руб / м2
+                </p>{" "}
+              </div>
             </div>
 
-            <div className={styles.pricePagePriceBox}>
-              <p>до 5 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 25 000 руб</p>{" "}
-            </div>
-            <div className={styles.pricePagePriceBox}>
-              <p>от 5 - 15 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 40 000 руб</p>{" "}
-            </div>
-            <div className={styles.pricePagePriceBox}>
-              <p>от 15 - 30 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 60 000 руб</p>{" "}
-            </div>
-            <div className={styles.pricePagePriceBox}>
-              <p>от 30 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 2 000 руб / м2</p>{" "}
-            </div>
-
-<div  className={` ${styles.lineUp}`}></div>
-
+            <div className={` ${styles.lineUp}`}></div>
             <div
               className={`${styles.pricePageStepBox} ${styles.pricePageStepBoxPomesheniya} `}
             >
@@ -195,25 +208,39 @@ function Price() {
               </ul>
             </div>
 
-            <div className={styles.pricePagePriceBox}>
-              <p> Стоимость отдельного помещения площадью: </p>{" "}
-            </div>
-
-            <div className={styles.pricePagePriceBox}>
-              <p>до 5 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 20 000 руб</p>{" "}
-            </div>
-            <div className={styles.pricePagePriceBox}>
-              <p>от 5 - 15 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 30 000 руб</p>{" "}
-            </div>
-            <div className={styles.pricePagePriceBox}>
-              <p>от 15 - 30 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 40 000 руб</p>{" "}
-            </div>
-            <div className={styles.pricePagePriceBox}>
-              <p>от 30 кв.м.</p>{" "}
-              <p className={styles.pricePagePriceBoxAmmount}> 1 600 руб / м2</p>{" "}
+            <div className={styles.leftside}>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p> Стоимость отдельного помещения площадью: </p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>до 5 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}> 20 000 руб</p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>от 5 - 15 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}> 30 000 руб</p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>от 15 - 30 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}> 40 000 руб</p>{" "}
+              </div>
+              <div
+                className={`${styles.pricePagePriceBox} ${styles.pricePagePriceBox2} `}
+              >
+                <p>от 30 кв.м.</p>{" "}
+                <p className={styles.pricePagePriceBoxAmmount}>
+                  {" "}
+                  1 600 руб / м2
+                </p>{" "}
+              </div>
             </div>
           </div>
         </div>
