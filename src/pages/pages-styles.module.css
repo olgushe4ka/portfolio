@@ -104,10 +104,10 @@
   justify-content: none;
 }
 
-.leftside{
+.leftside {
   display: flex;
- align-items: start;
- flex-direction: column;
+  align-items: start;
+  flex-direction: column;
 }
 
 .lineUp {
@@ -169,6 +169,19 @@
 .portfolioTitle {
   text-decoration: none !important;
   color: pr;
+}
+
+.pageFourOFour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 20px 150px 20px;
+}
+
+.pageFourOFour p {
+ font-weight: 500px;
+ font-size: 30px;
 }
 
 @media (max-width: 1300px) {

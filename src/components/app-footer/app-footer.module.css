@@ -21,13 +21,19 @@
   color: blueviolet;
 }
 
-.footerContainer{
+.footerContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.contactBox{
+.contactBox {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 770px) {
+  .contactBox {
+    flex-direction: column;
+  }
 }

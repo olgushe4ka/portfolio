@@ -37,7 +37,7 @@ function App() {
         </Route>
         <Route path="/price" exact={true}>
           <Price />
-          {/* <Price2 /> */}
+          <Price2 />
         </Route>
         <Route path="/contacnts" exact={true}>
           <Contacnts />
