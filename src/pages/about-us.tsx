@@ -1,4 +1,3 @@
-import { auto } from "@popperjs/core";
 import styles from "./pages-styles.module.css";
 
 function AboutUsPage() {
@@ -10,6 +9,7 @@ function AboutUsPage() {
             src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90452.jpg"
             width="auto"
             height="100%"
+            alt="photo"
           />
         </div>{" "}
         <div>
