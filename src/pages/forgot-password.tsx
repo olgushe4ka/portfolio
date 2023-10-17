@@ -3,33 +3,12 @@ import { Link, Redirect } from "react-router-dom";
 // import { passwordResetRequest } from "../services/actions/login";
 import { useState, useCallback, FormEvent } from "react";
 
-import Spinner from "../components/spinner/spinner";
-import { useSelector, useDispatch } from "../utils/hooks";
+import { useDispatch } from "../utils/hooks";
 
 function ForgotPassword() {
   const dispatch = useDispatch();
   const [inputValue, setinputValue] = useState("");
 
-  // const isLoading = useSelector(
-  //   (state) => state.login.passwordResetRequestIsLoading
-  // );
-
-  // const passwordResetRequestSuccess = useSelector(
-  //   (state) => state.login.passwordResetRequest.success
-  // );
-
-  // const resetPassword = (value: string, event: FormEvent<HTMLFormElement>) => {
-  //   event.preventDefault();
-  //   sendRequest(value);
-  // };
-
-  // const sendRequest = useCallback((email: string) => {
-  //   dispatch(passwordResetRequest({ email }));
-  // }, []);
-
-  // if (passwordResetRequestSuccess) {
-  //   return <Redirect to="/reset-password" />;
-  // }
 
   function resetPassword(
     inputValue: string,

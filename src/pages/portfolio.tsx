@@ -7,7 +7,7 @@ function Portfolio() {
     <div className={styles.portfolio}>
       <h2>Портфолио</h2>
       <div className={styles.portfolioImages}>
-        {portfolioInfo.map((item, index) => (
+        {portfolioInfo.map((item) => (
           <Link
             to={`/portfolio/${item.id}`}
             key={item.id}
@@ -25,3 +25,4 @@ function Portfolio() {
 }
 
 export default Portfolio;
+

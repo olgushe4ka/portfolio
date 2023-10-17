@@ -9,7 +9,7 @@ function AboutUsPage() {
             src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90452.jpg"
             width="auto"
             height="100%"
-            alt="photo"
+            alt="girls"
           />
         </div>{" "}
         <div>

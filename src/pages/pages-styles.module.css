@@ -79,7 +79,7 @@
 .pricePagePriceBox {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   font-weight: 600;
 }
 
@@ -106,7 +106,7 @@
 
 .leftside {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
 }
 
