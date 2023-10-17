@@ -1,5 +1,5 @@
 .header {
-  padding: 25px;
+  padding: 25px 70px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -46,6 +46,7 @@ font-weight: 500;
 @media (max-width: 770px) {
   .header {
     height: 180px;
+    padding: 15px 30px;
   }
 
   .boxLeft {
