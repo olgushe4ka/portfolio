@@ -9,7 +9,7 @@ function PriceBlock({
   steps: Array<{
     number: string;
     description: string;
-    items: string[]; 
+    items: string[];
   }>;
   prices: { amount: string; unit?: string };
 }) {
@@ -39,7 +39,5 @@ function PriceBlock({
     </div>
   );
 }
-
-
 
 export default PriceBlock;

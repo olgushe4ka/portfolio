@@ -19,9 +19,8 @@ export const store = configureStore({
   enhancers: [applyMiddleware(thunk)],
 });
 
-
 const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+  document.getElementById("root") as HTMLElement,
 );
 root.render(
   <>
@@ -32,7 +31,7 @@ root.render(
       </Provider>
     </Router>
     {/* </React.StrictMode> */}
-  </>
+  </>,
 );
 
 reportWebVitals();

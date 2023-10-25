@@ -6,11 +6,7 @@ import {
   Portfolio,
   Price,
 } from "../../pages/index";
-import {
-  Switch,
-  Route,
-  useLocation,
-} from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
 
 import AppHeader from "../app-header/app-header";
 

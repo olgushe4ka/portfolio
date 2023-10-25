@@ -40,7 +40,7 @@
 }
 
 .active p {
-font-weight: 500;
+  font-weight: 500;
 }
 
 @media (max-width: 770px) {

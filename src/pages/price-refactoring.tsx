@@ -1,7 +1,6 @@
 import PriceBlock from "../components/price-block/price-block";
 import styles from "./pages-styles.module.css";
 
-
 function Price2() {
   const designProjects = [
     {
@@ -92,7 +91,8 @@ function Price2() {
         },
       ],
       prices: {
-        amount: "- 25 000 руб (до 5 м2) - 40 000 руб (5-15 м2) - 60 000 руб (15-30 м2) - 2 000 руб/м2 (от 30 м2)",
+        amount:
+          "- 25 000 руб (до 5 м2) - 40 000 руб (5-15 м2) - 60 000 руб (15-30 м2) - 2 000 руб/м2 (от 30 м2)",
       },
     },
     {
@@ -110,7 +110,8 @@ function Price2() {
         },
       ],
       prices: {
-        amount: "- 20 000 руб (до 5 м2) - 30 000 руб (5-15 м2) - 40 000 руб (15-30 м2) - 1 600 руб/м2 (от 30 м2)",
+        amount:
+          "- 20 000 руб (до 5 м2) - 30 000 руб (5-15 м2) - 40 000 руб (15-30 м2) - 1 600 руб/м2 (от 30 м2)",
       },
     },
   ];

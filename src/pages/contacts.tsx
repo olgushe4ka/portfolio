@@ -15,8 +15,8 @@ function Contacnts() {
           <div>
             <strong>Телефон:</strong>
             <a className={styles.contactpageContacts} href="tel:+79033883601">
-            &nbsp;  +7 903 388 36 01
-              </a>
+              &nbsp; +7 903 388 36 01
+            </a>
           </div>
           <br />
           <br />

@@ -30,44 +30,58 @@ function AppHeader() {
     }
   }, [location.pathname]);
 
-  console.log(activePage)
+  console.log(activePage);
 
   return (
     <header className={`${headerStyles.header} pl-15 pr-15 pb-0 pt-0`}>
       <div className={`${headerStyles.boxLeft}`}>
         <Link
           to="/"
-          className={`${headerStyles.menu} ${activePage === "Главная" ? headerStyles.active : ""}`}
+          className={`${headerStyles.menu} ${
+            activePage === "Главная" ? headerStyles.active : ""
+          }`}
         >
           <p className={`${headerStyles.menuText}`}>Главная</p>
         </Link>
         <Link
           to="/about"
-          className={`${headerStyles.menu} ${activePage === "О нас" ? headerStyles.active : ""}`}
+          className={`${headerStyles.menu} ${
+            activePage === "О нас" ? headerStyles.active : ""
+          }`}
         >
           <p className={`${headerStyles.menuText}`}>О нас</p>
         </Link>
         <Link
           to="/portfolio"
-          className={`${headerStyles.menu} ${activePage === "Портфолио" ? headerStyles.active : ""}`}
+          className={`${headerStyles.menu} ${
+            activePage === "Портфолио" ? headerStyles.active : ""
+          }`}
         >
           <p className={`${headerStyles.menuText}`}>Портфолио</p>
         </Link>
         <Link
           to="/price"
-          className={`${headerStyles.menu} ${activePage === "Услуги и цены" ? headerStyles.active : ""}`}
+          className={`${headerStyles.menu} ${
+            activePage === "Услуги и цены" ? headerStyles.active : ""
+          }`}
         >
           <p className={`${headerStyles.menuText}`}>Услуги и цены</p>
         </Link>
         <Link
           to="/contacnts"
-          className={`${headerStyles.menu} ${activePage === "Контакты" ? headerStyles.active : ""}`}
+          className={`${headerStyles.menu} ${
+            activePage === "Контакты" ? headerStyles.active : ""
+          }`}
         >
           <p className={`${headerStyles.menuText}`}>Контакты</p>
         </Link>
       </div>
       <Link to="/" className={`${headerStyles.logo}`}>
-        <img src={require("../../images/logo2.jpg")} alt="логотип" width={100} />
+        <img
+          src={require("../../images/logo2.jpg")}
+          alt="логотип"
+          width={100}
+        />
       </Link>
     </header>
   );
