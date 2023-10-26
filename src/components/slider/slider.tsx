@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import slide1 from "../../images/slide1.jpg";
+
 const settings = {
   dots: true,
   infinite: true,
@@ -22,12 +24,12 @@ function SliderMain() {
           <div className={styles.imageContainer}>
             <img
               className={styles.slickSlide}
-              src={require("../../images/slide1.jpg")}
+              src={`${process.env.PUBLIC_URL}/${slide1}`}
               alt="Slide 1"
             />
             <img
               className={styles.slickSlide}
-              src={require("../../images/slide2.jpg")}
+              src={`${process.env.PUBLIC_URL}/images/slide2.jpg`}
               alt="Slide 1"
             />
           </div>
