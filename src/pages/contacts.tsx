@@ -1,5 +1,11 @@
 import styles from "./pages-styles.module.css";
-import { FaInstagram, FaWhatsapp, FaTelegram, FaPhone } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaWhatsapp,
+  FaTelegram,
+  FaPhone,
+  FaMailBulk,
+} from "react-icons/fa";
 
 function Contacnts() {
   return (
@@ -9,7 +15,7 @@ function Contacnts() {
         <div>
           <h2 className={styles.contactpageH2}>Контакты</h2>
           <div className={styles.contactpageLocation}>
-            <strong> Казань, ул. Строителей, 12</strong>
+            <strong>город Казань</strong>
           </div>
 
           <div>
@@ -27,7 +33,14 @@ function Contacnts() {
                 <FaPhone /> Позвонить
               </a>
             </p>
-
+            <p>
+              <a
+                className={styles.contactpageContacts}
+                href="mailto:ljinterior@mail.ru"
+              >
+                <FaMailBulk /> E-mail
+              </a>
+            </p>
             <p>
               <a
                 className={styles.contactpageContacts}

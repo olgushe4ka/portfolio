@@ -1,4 +1,4 @@
-import { FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaMailBulk, FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import styles from "./app-footer.module.css";
 
 function AppFooter() {
@@ -22,6 +22,13 @@ function AppFooter() {
             href="https://t.me/LJinterior"
           >
             <FaTelegram /> Telegram
+          </a>
+
+          <a
+            className={styles.contactpageContacts}
+            href="mailto:ljinterior@mail.ru"
+          >
+            <FaMailBulk /> E-mail
           </a>
         </div>
       </div>
