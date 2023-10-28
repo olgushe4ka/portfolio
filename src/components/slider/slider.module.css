@@ -26,3 +26,22 @@
 .slickDots {
   bottom: 10px;
 }
+
+@media (max-width: 770px) {
+  .slickSlide {
+    max-height: 200px;
+  }
+
+  .slickSlider .slickSlide:nth-child(2) {
+    display: none;
+  }
+
+  .slickSlider .slickSlide:nth-child(4) {
+    display: none;
+  }
+
+  .slickSlider .slickSlide:nth-child(6) {
+    display: none;
+  }
+
+}

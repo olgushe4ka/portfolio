@@ -24,7 +24,7 @@ function SliderMain() {
           <div className={styles.imageContainer}>
             <img
               className={styles.slickSlide}
-              src={`${process.env.PUBLIC_URL}/${slide1}`}
+              src={require("../../images/slide1.jpg")}
               alt="Slide 1"
             />
             <img
