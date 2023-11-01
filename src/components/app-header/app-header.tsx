@@ -43,7 +43,7 @@ function AppHeader() {
         >
           <p className={`${headerStyles.menuText}`}>Главная</p>
         </Link>
-        {/* <Link
+      <Link
           to="/about"
           className={`${headerStyles.menu} ${
             activePage === "О нас" ? headerStyles.active : ""
@@ -51,7 +51,7 @@ function AppHeader() {
         >
           <p className={`${headerStyles.menuText}`}>О нас</p>
         </Link>
-        <Link
+          {/* <Link
           to="/portfolio"
           className={`${headerStyles.menu} ${
             activePage === "Портфолио" ? headerStyles.active : ""

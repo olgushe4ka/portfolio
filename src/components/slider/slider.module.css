@@ -14,13 +14,11 @@
 
 .imageContainer {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
   justify-content: center;
 }
 
 .slickSlide {
-  max-height: 500px;
+  max-height: 700px;
 }
 
 .slickDots {
@@ -29,7 +27,7 @@
 
 @media (max-width: 770px) {
   .slickSlide {
-    max-height: 200px;
+    max-height: 400px;
   }
 
   .slickSlider .slickSlide:nth-child(2) {
