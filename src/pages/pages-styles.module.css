@@ -10,6 +10,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .aboutus {
   padding: 30px;
@@ -35,6 +36,11 @@
 .aboutusText {
   padding-left: 25px;
   max-width: 1000px;
+}
+
+.girlPhoto img {
+  width: 170px;
+  height: auto;
 }
 
 .pricePage {

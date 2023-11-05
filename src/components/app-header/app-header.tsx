@@ -57,7 +57,7 @@ function AppHeader() {
             activePage === "Портфолио" ? headerStyles.active : ""
           }`}
         >
-          <p className={`${headerStyles.menuText}`}>Портфолио</p>
+          <p className={`${headerStyles.menuText}`}>Проекты</p>
         </Link>
         <Link
           to="/price"

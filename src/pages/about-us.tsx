@@ -54,6 +54,30 @@ function AboutUsPage() {
           </p>{" "}
         </div>
       </div>{" "}
+      <div>
+        <div className={styles.girlPhoto}>
+          <img
+            src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90397.jpg"
+            alt="girl"
+          />
+          <p>Юлия Тонгузова</p> <p>главный дизайнер</p>
+        </div>
+        <div className={styles.girlPhoto}>
+          <img
+            src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90638.jpg"
+            alt="girl"
+          />
+          <p>Лейсан Калимуллина</p> <p>главный дизайнер</p>
+        </div>
+        <div className={styles.girlPhoto}>
+          <img
+            src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90844.jpg"
+            alt="girl"
+          />
+          <p>Айгуль Серодеденко</p>{" "}
+          <p>комплектатор, декоратор, организатор пространства</p>
+        </div>
+      </div>
     </div>
   );
 }

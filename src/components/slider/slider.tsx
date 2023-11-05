@@ -27,7 +27,6 @@ function SliderMain() {
               src={require("../../images/slide1.jpg")}
               alt="Slide 1"
             />
-
           </div>
         </div>
         <div className={styles.slickSlider}>
@@ -37,7 +36,6 @@ function SliderMain() {
               src={require("../../images/slide2.jpg")}
               alt="Slide 2"
             />
-
           </div>
         </div>
         <div className={styles.slickSlider}>
@@ -47,7 +45,33 @@ function SliderMain() {
               src={require("../../images/slide3.jpg")}
               alt="Slide 3"
             />
-
+          </div>
+        </div>
+        <div className={styles.slickSlider}>
+          <div className={styles.imageContainer}>
+            <img
+              className={styles.slickSlide}
+              src={require("../../images/slide4.jpg")}
+              alt="Slide 4"
+            />
+          </div>
+        </div>
+        <div className={styles.slickSlider}>
+          <div className={styles.imageContainer}>
+            <img
+              className={styles.slickSlide}
+              src={require("../../images/slide5.jpg")}
+              alt="Slide 5"
+            />
+          </div>
+        </div>
+        <div className={styles.slickSlider}>
+          <div className={styles.imageContainer}>
+            <img
+              className={styles.slickSlide}
+              src={require("../../images/slide6.jpg")}
+              alt="Slide 6"
+            />
           </div>
         </div>
       </Slider>
