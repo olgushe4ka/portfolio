@@ -10,3 +10,13 @@
   max-width: 1500px;
   padding: 25px;
 }
+
+.mainImg img {
+  max-width: 300px;
+}
+
+.boxWithImage {
+  display: flex;
+  border: 2px solid blueviolet;;
+  padding: 30px;
+}

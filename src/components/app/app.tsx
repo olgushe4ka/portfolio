@@ -37,10 +37,10 @@ function App() {
         <Route path="/contacnts" exact={true}>
           <Contacnts />
         </Route>
-        {/* <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />
+        {/* <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />*/}
         <Route path="/about" exact={true}>
           <AboutUsPage />
-        </Route> */}
+        </Route>
 
         <Route>
           <Page404 />
