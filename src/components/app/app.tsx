@@ -27,17 +27,17 @@ function App() {
         <Route path="/" exact={true}>
           <MainPage />
         </Route>
-        {/* <Route path="/portfolio" exact={true}>
+        <Route path="/proekti" exact={true}>
           <Portfolio />
         </Route>
-        <Route path="/price" exact={true}>
+        {/*  <Route path="/price" exact={true}>
           <Price />
           <Price2 />
         </Route> */}
         <Route path="/contacnts" exact={true}>
           <Contacnts />
         </Route>
-        {/* <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />*/}
+        <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />
         <Route path="/about" exact={true}>
           <AboutUsPage />
         </Route>

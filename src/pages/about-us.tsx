@@ -60,22 +60,22 @@ function AboutUsPage() {
             src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90397.jpg"
             alt="girl"
           />
-          <h5>Юлия Тонгузова</h5> <p>главный дизайнер</p>
+          <h5 className={styles.girlName}>Юлия Тонгузова</h5> <p className={styles.girlProf}>главный дизайнер</p>
         </div>
         <div className={styles.girlPhoto}>
           <img
             src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90638.jpg"
             alt="girl"
           />
-          <h5>Лейсан Калимуллина</h5> <p>главный дизайнер</p>
+          <h5 className={styles.girlName}>Лейсан Калимуллина</h5> <p className={styles.girlProf}>главный дизайнер</p>
         </div>
         <div className={styles.girlPhoto}>
           <img
             src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/LA8J/Y29tV79gk/SHI90844.jpg"
             alt="girl"
           />
-          <h5>Айгуль Серодеденко</h5>{" "}
-          <p>комплектатор, декоратор, организатор пространства</p>
+          <h5 className={styles.girlName}>Айгуль Серодеденко</h5>{" "}
+          <p className={styles.girlProf}>комплектатор, декоратор, организатор пространства</p>
         </div>
       </div>
       <p className={`${styles.aboutusTextCenter}`}> Мы обожаем свою работу! ❤️</p>

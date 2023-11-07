@@ -29,17 +29,16 @@
   .slickSlide {
     max-height: 400px;
   }
+}
 
-  .slickSlider .slickSlide:nth-child(2) {
-    display: none;
+@media (max-width: 600px) {
+  .slickSlide {
+    max-height: 300px;
   }
+}
 
-  .slickSlider .slickSlide:nth-child(4) {
-    display: none;
+@media (max-width: 500px) {
+  .slickSlide {
+    max-height: 200px;
   }
-
-  .slickSlider .slickSlide:nth-child(6) {
-    display: none;
-  }
-
 }

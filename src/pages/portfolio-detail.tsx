@@ -1,33 +1,43 @@
 import { useParams } from "react-router-dom";
-import styles from "./pages-styles.module.css";
-import { portfolioInfo } from "../utils/data";
+import styles from "./portfolo-delail-styles.module.css";
+import { portfolioInfo2 } from "../utils/data";
 
 interface RouteParams {
   photoId: string;
 }
 
+interface RoomInfo {
+  id: number;
+  roomName: string;
+  photos: string[];
+}
+
 function PortfolioDetailPage() {
   const { photoId } = useParams<RouteParams>();
-
   const photoIdAsNumber = parseInt(photoId, 10);
 
-  const profileInfo = portfolioInfo.find((item) => item.id === photoIdAsNumber);
+  const houseInfo = portfolioInfo2.find((item) => item.id === photoIdAsNumber);
+
+  if (!houseInfo) {
+    return <div>Информация не найдена</div>;
+  }
 
   return (
     <div className={styles.main}>
-      <h2>Детальная информация о проекте</h2>
-      <p>{profileInfo?.informationAbot}</p>
-      {profileInfo !== undefined && profileInfo.otherFotos !== undefined && (
-        <div className={styles.portfolioImages}>
-          {profileInfo.otherFotos.map((item, index) => (
-            <div key={index}>
-              <div className={styles.portfolioImage}>
-                <img src={item} alt={"фото"} />
-              </div>{" "}
-            </div>
-          ))}
+      <h2 className={styles.nameRoom}>Детальная информация: {houseInfo.title}</h2>
+
+      {houseInfo.otherFotos.map((room, index) => (
+        <div key={index}>
+          <h3 className={styles.nameRoom}>{room.roomName}</h3>
+          <div className={styles.portfolioImages}>
+            {room.photos.map((photo, photoIndex) => (
+              <div key={photoIndex} className={styles.portfolioImage}>
+                <img src={photo} alt="фото" />
+              </div>
+            ))}
+          </div>
         </div>
-      )}
+      ))}
     </div>
   );
 }

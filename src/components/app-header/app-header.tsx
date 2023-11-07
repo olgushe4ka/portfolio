@@ -15,8 +15,8 @@ function AppHeader() {
       // case "/about":
       //   setActivePage("О нас");
       //   break;
-      // case "/portfolio":
-      //   setActivePage("Портфолио");
+      // case "/proekti":
+      //   setActivePage("Проекты");
       //   break;
       // case "/price":
       //   setActivePage("Услуги и цены");
@@ -43,7 +43,7 @@ function AppHeader() {
         >
           <p className={`${headerStyles.menuText}`}>Главная</p>
         </Link>
-      <Link
+        <Link
           to="/about"
           className={`${headerStyles.menu} ${
             activePage === "О нас" ? headerStyles.active : ""
@@ -51,15 +51,15 @@ function AppHeader() {
         >
           <p className={`${headerStyles.menuText}`}>О нас</p>
         </Link>
-          {/* <Link
-          to="/portfolio"
+        <Link
+          to="/proekti"
           className={`${headerStyles.menu} ${
-            activePage === "Портфолио" ? headerStyles.active : ""
+            activePage === "Проекты" ? headerStyles.active : ""
           }`}
         >
           <p className={`${headerStyles.menuText}`}>Проекты</p>
         </Link>
-        <Link
+        {/*    <Link
           to="/price"
           className={`${headerStyles.menu} ${
             activePage === "Услуги и цены" ? headerStyles.active : ""

@@ -38,13 +38,13 @@
   max-width: 1000px;
 }
 
-.aboutusTextCenter{
+.aboutusTextCenter {
   text-align: center;
   padding-bottom: 30px;
 }
 
 .girlPhotos {
-  padding: 30px 0;
+  padding: 30px 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -57,6 +57,17 @@
 .girlPhoto img {
   width: 170px;
   height: auto;
+}
+
+.girlName {
+  margin: 0;
+  padding: 0;
+}
+
+.girlProf {
+  margin: 0;
+  padding: 0;
+  font-size: small;
 }
 
 .pricePage {
@@ -175,11 +186,15 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  object-fit: contain;
 }
 
 .hoverOpacity:hover {
   opacity: 0.6;
+}
+
+.portfolioImage {
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolioImage img {
@@ -187,6 +202,7 @@
   max-height: 400px;
   width: auto;
   height: auto;
+  object-fit: contain;
 }
 
 .portfolioTitle {
@@ -233,5 +249,13 @@
 
   .portfolioImages {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .girlPhotos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .girlPhoto {
+    margin-bottom: 25px;
   }
 }
