@@ -24,7 +24,7 @@ function PortfolioDetailPage() {
 
   return (
     <div className={styles.main}>
-      <h2 className={styles.nameRoom}>Детальная информация: {houseInfo.title}</h2>
+      <h2 className={styles.nameRoom}>{houseInfo.title}</h2>
 
       {houseInfo.otherFotos.map((room, index) => (
         <div key={index}>
