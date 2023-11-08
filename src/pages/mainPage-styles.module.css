@@ -13,6 +13,7 @@
 
 .mainImg img {
   max-width: 300px;
+  object-fit: contain;
 }
 
 .boxWithImage {
