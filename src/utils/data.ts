@@ -459,4 +459,91 @@ export const portfolioInfo2 = [
       },
     ],
   },
+
+  {
+    id: 7,
+    title: "Квартира 57м2",
+    mainFoto:
+      "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/80000_Post.jpg",
+    otherFotos: [
+      {
+        roomName: "Коридор",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/10000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/20000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/30000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/40000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/50000_Post.jpg",
+        ],
+      },
+      {
+        roomName: "Спальня",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/1_Post%20%281%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/2_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/4_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/5_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/30000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/60000_Post.jpg",
+        ],
+      },
+      {
+        roomName: "Детская",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/1_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/4_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/5_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/6_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/20000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/30000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/70000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F/80000_Post.jpg",
+        ],
+      },
+
+      {
+        roomName: "Ванная",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%92%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F/1_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%92%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F/2_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%92%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F/3_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%92%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F/4_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%92%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F/5_Post.jpg",
+        ],
+      },
+      {
+        roomName: "Гардеробная",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/1_Post%20%281%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/2_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/3_Post.jpg",
+        ],
+      },
+
+      {
+        roomName: "Кухня-гостиная",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D1%83%D1%85%D0%BD%D1%8F-%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/1_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D1%83%D1%85%D0%BD%D1%8F-%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/2_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D1%83%D1%85%D0%BD%D1%8F-%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/3_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D1%83%D1%85%D0%BD%D1%8F-%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/4_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%9A%D1%83%D1%85%D0%BD%D1%8F-%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/50000_Post.jpg",
+        ],
+      },
+      {
+        roomName: "Балкон",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%91%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD/1_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%91%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD/2_Post.jpg",
+        ],
+      },
+      {
+        roomName: "СУ",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%A3/1_Post%20%287%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20Sreda%20of%20life/%D0%A1%D0%A3/2_Post%20%283%29.jpg",
+        ],
+      },
+    ],
+  },
 ];

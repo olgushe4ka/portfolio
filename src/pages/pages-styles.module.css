@@ -49,10 +49,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .girlPhoto {
   max-width: 200px;
+  padding: 0 45px;
 }
 
 .girlPhoto img {
