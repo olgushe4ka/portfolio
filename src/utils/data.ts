@@ -643,4 +643,78 @@ export const portfolioInfo2 = [
       },
     ],
   },
+
+  {
+    id: 9,
+    title: "Квартира 59м2",
+    mainFoto:
+      "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/1_Post%20%284%29.jpg",
+    otherFotos: [
+      {
+        roomName: "Спальня",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/1_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/2_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/3_Post%20%283%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/40000_Post%20%281%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F/50000_Post.jpg",
+        ],
+      },
+
+      {
+        roomName: "Гостиная",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/1_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/2_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/4_Post%20%281%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/6_Post%20%282%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/7_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/8_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/30000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/50000_Post.jpg",
+        ],
+      },
+      {
+        roomName: "Кухня, коридор",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/1_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/2_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/3_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/4_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/10_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/50000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/60000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/70000_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%9A%D1%83%D1%85%D0%BD%D1%8F%2C%20%D0%BA%D0%BE%D1%80%D0%B8%D0%B4%D0%BE%D1%80/80000_Post.jpg",
+        ],
+      },
+      {
+        roomName: "СУ",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3/51_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3/52_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3/53_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3/54_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3/55_Post.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3/56_Post.jpg",
+        ],
+      },
+      {
+        roomName: "СУ 2",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3%202/1_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3%202/2_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3%202/3_Post%20%283%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%A1%D0%A3%202/4_Post%20%281%29.jpg",
+        ],
+      },
+      {
+        roomName: "Балкон",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%91%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD/1_Post%20%284%29.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0/%D0%91%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD/2_Post%20%284%29.jpg",
+        ],
+      },
+    ],
+  },
 ];
