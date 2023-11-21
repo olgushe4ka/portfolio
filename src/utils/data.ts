@@ -717,4 +717,61 @@ export const portfolioInfo2 = [
       },
     ],
   },
+
+  {
+    id: 10,
+    title: "Дом 243м2",
+    mainFoto:
+      "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/1.jpg",
+    otherFotos: [
+      {
+        roomName: "Гостиная",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/1.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/2.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/3.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/4.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/5.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/6.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/7.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/8.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F/9.jpg",
+        ],
+      },
+      {
+        roomName: "Гардеробная + кладовая",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/1.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/2.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/3.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/4.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/5.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/6.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/7.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/8.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/9.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%2B%20%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F/10.jpg",
+        ],
+      },
+      {
+        roomName: "Гостевая",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%B0%D1%8F/1.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%B0%D1%8F/2.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%B0%D1%8F/3.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%B0%D1%8F/4.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%B0%D1%8F/5.jpg",
+        ],
+      },
+      {
+        roomName: "Гостевой СУ",
+        photos: [
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%A1%D0%A3/1.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%A1%D0%A3/2.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%A1%D0%A3/3.jpg",
+          "https://thumb.cloud.mail.ru/weblink/thumb/xw1/nKoY/moiZVdug3/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D1%8B%20%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%A3%D1%81%D0%BB%D0%BE%D0%BD/%D0%93%D0%BE%D1%81%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%A1%D0%A3/4.jpg",
+        ],
+      },
+    ],
+  },
 ];
